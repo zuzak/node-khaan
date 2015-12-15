@@ -26,7 +26,6 @@ var khaan = module.exports = {
 		}
 		var ini  = arr.shift();
 		var med = Array( number ).join( arr[0][0] );
-		console.log(med);
 		var fin = arr.join( '' );
 		return ini + med + fin;
 	},
