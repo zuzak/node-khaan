@@ -1,0 +1,16 @@
+{
+  "name": "khaan",
+  "version": "0.0.1",
+  "description": "Word elongator",
+  "main": "index.js",
+  "repository": "https://github.com/zuzak/node-khan",
+  "author": "Douglas Gardner <douglas@chippy.ch>",
+  "license": "ISC",
+  "dependencies": {
+    "is-vowel": "^1.2.0"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/zuzak/node-khaan.js"
+  }
+}
