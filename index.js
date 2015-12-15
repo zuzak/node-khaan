@@ -24,9 +24,9 @@ var khaan = module.exports = {
 		if ( arr.length < 2 ) {
 			return word;
 		}
-		var ini  = arr.shift();
-		var med = Array( number ).join( arr[0][0] );
-		var fin = arr.join( '' );
+		var fin = arr.pop();
+		var ini  = arr.join( '' );
+		var med = Array( number ).join( fin[0] );
 		return ini + med + fin;
 	},
 	khan: function ( word, number ) {
