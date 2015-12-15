@@ -12,5 +12,10 @@
   "repository": {
 	  "type": "git",
 	  "url": "https://github.com/zuzak/node-khaan.js"
-  }
+  },
+  "keywords": [
+	  "elongate",
+	  "khan",
+	  "vowel"
+  ]
 }
